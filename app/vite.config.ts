@@ -25,13 +25,13 @@ export default defineConfig({
     // hmr: {
     //   clientPort: 3000,
     // },
-    https: {
-      cert: process.env.LOCALHOST_HTTPS_CERT,
-      key: process.env.LOCALHOST_HTTPS_KEY,
-      //@ts-ignore
-      maxSessionMemory: 100,
-      peerMaxConcurrentStreams: 300,
-    },
+    // https: {
+    //   cert: process.env.LOCALHOST_HTTPS_CERT,
+    //   key: process.env.LOCALHOST_HTTPS_KEY,
+    //   //@ts-ignore
+    //   maxSessionMemory: 100,
+    //   peerMaxConcurrentStreams: 300,
+    // },
   },
   plugins: [viteCommonjs(), reactRefresh(), tsconfigPaths(), svgr()],
   build: {

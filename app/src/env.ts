@@ -85,7 +85,7 @@ const COLUMBUS_CONTRACT_ADDRESS = {
   mmLiquidation: 'terra1w9ky73v4g7v98zzdqpqgf3kjmusnx4d4mvnac6',
   mmDistributionModel: 'terra14mufqpr5mevdfn92p4jchpkxp7xr46uyknqjwq',
   mmLiquidationQueue: 'terra1e25zllgag7j9xsun3me4stnye2pcg66234je3u',
-  aTerra: 'terra1hzh9vpxhsk8253se0vv5jj6etdvxu3nv8z07zu',
+  aTerra: 'terra1hzh9vpxhsk8253se0vv5jj6etdvxu3nv8z07zu', // 待确定
   bLunaLunaPair: 'terra1j66jatn3k50hjtg2xemnjm8s7y8dws9xqa5y8w',
   bLunaLunaLPToken: 'terra1htw7hm40ch0hacm8qpgd24sus4h0tq3hsseatl',
   ancUstPair: 'terra1qr2k6yjjd5p2kaewqvg93ag74k6gyjr7re37fs',
@@ -97,12 +97,12 @@ const COLUMBUS_CONTRACT_ADDRESS = {
   staking: 'terra1h3mf22jm68ddueryuv2yxwfmqxxadvjceuaqz6',
   ANC: 'terra14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76',
   airdrop: 'terra146ahqn6d3qgdvmj8cj96hh03dzmeedhsf0kxqm',
-  investor_vesting: 'terra1pm54pmw3ej0vfwn3gtn6cdmaqxt0x37e9jt0za',
-  team_vesting: 'terra10evq9zxk2m86n3n3xnpw28jpqwp628c6dzuq42',
+  investor_vesting: 'terra1pm54pmw3ej0vfwn3gtn6cdmaqxt0x37e9jt0za', // 待确定
+  team_vesting: 'terra10evq9zxk2m86n3n3xnpw28jpqwp628c6dzuq42', // 待确定
   terraswapFactory: 'terra1ulgw0td86nvs4wtpsc80thv6xelk76ut7a7apj',
-  astroportGenerator: 'terra1zgrx9jjqrfye8swykfgmd6hpde60j0nszzupp9',
-  vesting: 'terra13v4ln23tmfs2zk4nh5dw5mzufckekp4fpafpcy',
-  astroUstPair: 'terra1l7xu2rl3c7qmtx3r5sd2tz25glf6jh8ul7aag7',
+  astroportGenerator: 'terra1zgrx9jjqrfye8swykfgmd6hpde60j0nszzupp9', // 待确定
+  vesting: 'terra13v4ln23tmfs2zk4nh5dw5mzufckekp4fpafpcy', // 待确定
+  astroUstPair: 'terra1l7xu2rl3c7qmtx3r5sd2tz25glf6jh8ul7aag7', // 待确定
 };
 
 const BOMBAY_CONTRACT_ADDRESS = {

@@ -21,10 +21,10 @@ import puppeteer from 'puppeteer';
     devtools: true,
   });
 
-  const [page] = await browser.pages();
-  await page.goto(
-    `${process.env.HTTPS ? 'https' : 'http'}://localhost:${port}`,
-  );
+  // const [page] = await browser.pages();
+  // await page.goto(
+  //   `${process.env.HTTPS ? 'https' : 'http'}://localhost:${port}`,
+  // );
 
   // await page.waitForFunction(
   //  `document.querySelector('#app h1').innerHTML === 'Hello World!'`,

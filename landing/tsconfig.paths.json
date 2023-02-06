@@ -5,6 +5,9 @@
       "@anchor-protocol/*": [
         "../../app/src/@anchor-protocol/*"
       ],
+      "@terra-money/*": [
+        "../../app/src/@terra-money/*"
+      ],
       "@libs/*": [
         "../../app/src/@libs/*"
       ]

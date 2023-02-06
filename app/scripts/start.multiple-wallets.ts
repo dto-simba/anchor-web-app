@@ -27,7 +27,7 @@ const userDataDir = path.resolve(
   });
 
   const [page] = await browser.pages();
-  await page.goto(`https://localhost:3000`);
+  await page.goto(`http://localhost:3000`);
 
   console.log(
     `🌏 Test Chromium is ready. A shortcut "Ctrl + C" is close the browser.`,
