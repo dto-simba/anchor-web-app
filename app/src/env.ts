@@ -71,38 +71,43 @@ export function ANCHOR_CONSTANTS(network: NetworkInfo): AnchorConstants {
 }
 
 const COLUMBUS_CONTRACT_ADDRESS = {
-  bLunaHub: 'terra1mtwph2juhj0rvjz7dy92gvl6xvukaxu8rfv8ts',
-  bLunaToken: 'terra1kc87mu460fwkqte29rquh4hc20m54fxwtsx7gp',
-  bLunaReward: 'terra17yap3mhph35pcwvhza38c2lkj7gzywzy05h7l0',
-  bLunaAirdrop: 'terra199t7hg7w5vymehhg834r6799pju2q3a0ya7ae9',
-  bLunaValidatorsRegistry: 'terra10wt548y4y3xeqfrqsgqlqh424lll8fqxp6dyed',
-  mmInterestModel: 'terra1kq8zzq5hufas9t0kjsjc62t2kucfnx8txf547n',
-  mmOracle: 'terra1cgg6yef7qcdm070qftghfulaxmllgmvk77nc7t',
-  mmMarket: 'terra1sepfj7s0aeg5967uxnfk4thzlerrsktkpelm5s',
-  mmOverseer: 'terra1tmnqgvg567ypvsvk6rwsga3srp7e3lg6u0elp8',
-  mmCustody: 'terra1ptjp2vfjrwh0j0faj9r6katm640kgjxnwwq9kn',
-  mmCustodyBEth: 'terra10cxuzggyvvv44magvrh3thpdnk9cmlgk93gmx2',
-  mmLiquidation: 'terra1w9ky73v4g7v98zzdqpqgf3kjmusnx4d4mvnac6',
-  mmDistributionModel: 'terra14mufqpr5mevdfn92p4jchpkxp7xr46uyknqjwq',
-  mmLiquidationQueue: 'terra1e25zllgag7j9xsun3me4stnye2pcg66234je3u',
-  aTerra: 'terra1hzh9vpxhsk8253se0vv5jj6etdvxu3nv8z07zu', // 待确定
-  bLunaLunaPair: 'terra1j66jatn3k50hjtg2xemnjm8s7y8dws9xqa5y8w',
-  bLunaLunaLPToken: 'terra1htw7hm40ch0hacm8qpgd24sus4h0tq3hsseatl',
-  ancUstPair: 'terra1qr2k6yjjd5p2kaewqvg93ag74k6gyjr7re37fs',
-  ancUstLPToken: 'terra1wmaty65yt7mjw6fjfymkd9zsm6atsq82d9arcd',
-  gov: 'terra1f32xyep306hhcxxxf7mlyh0ucggc00rm2s9da5',
-  distributor: 'terra1mxf7d5updqxfgvchd7lv6575ehhm8qfdttuqzz',
-  collector: 'terra14ku9pgw5ld90dexlyju02u4rn6frheexr5f96h',
-  community: 'terra12wk8dey0kffwp27l5ucfumczlsc9aned8rqueg',
-  staking: 'terra1h3mf22jm68ddueryuv2yxwfmqxxadvjceuaqz6',
-  ANC: 'terra14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76',
-  airdrop: 'terra146ahqn6d3qgdvmj8cj96hh03dzmeedhsf0kxqm',
-  investor_vesting: 'terra1pm54pmw3ej0vfwn3gtn6cdmaqxt0x37e9jt0za', // 待确定
-  team_vesting: 'terra10evq9zxk2m86n3n3xnpw28jpqwp628c6dzuq42', // 待确定
-  terraswapFactory: 'terra1ulgw0td86nvs4wtpsc80thv6xelk76ut7a7apj',
-  astroportGenerator: 'terra1zgrx9jjqrfye8swykfgmd6hpde60j0nszzupp9', // 待确定
-  vesting: 'terra13v4ln23tmfs2zk4nh5dw5mzufckekp4fpafpcy', // 待确定
-  astroUstPair: 'terra1l7xu2rl3c7qmtx3r5sd2tz25glf6jh8ul7aag7', // 待确定
+  bLunaHub: 'sei1pryug3pp92fhn5qavdt2uxu32j3gv0v7vueuzs3ep8xelqd6exls3wstme',
+  bLunaToken: '',
+  bLunaReward: 'sei1f8rp2vlg5s7pvyfcnpfms007uyl7856kpe2dcx8hjq2fkt90qfjs4qknts',
+  bLunaAirdrop: '',
+  bLunaValidatorsRegistry:
+    'sei1fxkx7wd4q7z5zgm8qh0vaxptx4gp0ppgjm0ke56jr55azpzecpcs68t6xs',
+  mmInterestModel:
+    'sei13v6dgzhf9nu4fzdkrc6tpvxxd8eqg546ynjep8cqvl4n27xlvf7s9md8qh',
+  mmOracle: 'sei1m85zj4fm3u6zmcj950rj6mjwuv54r5et9al8yhcee5j3ua8keqysj9rgvy',
+  mmMarket: 'sei1ghtzcd93hu03qwp6p22rp9lkphdns6ejmlsqalql8craatdn36cs22hwk2',
+  mmOverseer: 'sei12xk7d7lksh6z94vvt4qqur765trqdcn7w86mfak62qjz63zvmhvsl7qf07',
+  mmCustody: 'sei1vlqvaptpe7hztjj52whxk5mm6k2ey9hu4rv5ueu89shagk72mewqe0zpae',
+  mmCustodyBEth: '',
+  mmLiquidation:
+    'sei1y532kwl07tpqf2q8gjcfzyj3qnfp8qyax7cg4gsqpsp9pwad24tqxhr5nw',
+  mmDistributionModel:
+    'sei1w95u2w477a852mpex72t4u0qs0vyjkme4gq4m2ltgf84km47wf0sle73sl',
+  mmLiquidationQueue:
+    'sei1urjwnppz7cty5g0j9sjue63g3a0r2wlkgly4wtf6vtdvgpzkm6rqspfy0w',
+  aTerra: '',
+  bLunaLunaPair: '',
+  bLunaLunaLPToken: '',
+  ancUstPair: '',
+  ancUstLPToken: '',
+  gov: '',
+  distributor: '',
+  collector: '',
+  community: '',
+  staking: '',
+  ANC: '',
+  airdrop: '',
+  investor_vesting: '',
+  team_vesting: '',
+  terraswapFactory: '',
+  astroportGenerator: '',
+  vesting: '',
+  astroUstPair: '',
 };
 
 const BOMBAY_CONTRACT_ADDRESS = {
