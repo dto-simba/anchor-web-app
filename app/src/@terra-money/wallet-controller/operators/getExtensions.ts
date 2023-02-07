@@ -60,8 +60,8 @@ export function getExtensions(): Observable<InstallableExtension[]> {
     return of([]);
   }
 
-  // return fromFetch('https://assets.terra.money/extensions.json').pipe<
-  return fromFetch('http://192.168.2.66/extensions.json').pipe<
+  return fromFetch('https://assets.terra.money/extensions.json').pipe<
+    // return fromFetch('http://192.168.2.66/extensions.json').pipe<
     Extensions,
     Extensions,
     InstallableExtension[]
